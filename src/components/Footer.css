@@ -1,0 +1,58 @@
+.footer {
+    background-image: url("https://res.cloudinary.com/dxssqb6l8/image/upload/v1605293781/pine-tree_mq2sgp.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+img{
+    width: 40%;
+}
+.footer::before {
+    position: absolute;
+    content: '';
+    display: block;
+    background-color: rgba(0, 0, 36, 0.80);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.footer .links {
+    position: relative;
+    color: #fff;
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links ul {
+    list-style-type: none;
+}
+
+.links h3 {
+    font-family: Barlow Condensed;
+    font-weight: normal;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.links li {
+    font-family: Roboto;
+    cursor: pointer;
+    padding: 15px 0;
+}
+
+.links li:hover {
+    color: #FFA801;
+}

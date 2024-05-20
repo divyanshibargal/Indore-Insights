@@ -1,0 +1,144 @@
+.firstplace {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.firsttext {
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.firsttext h2 {
+    padding-bottom: 1rem;
+}
+
+.fimage {
+    position: relative;
+    margin-top: 3rem;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+    overflow: hidden;
+}
+.secondplace >
+.img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: -1px 1px 62px -18px rgba(0, 0, 0, 0.19);
+
+}
+.secondplace {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.secondtext {
+    width: 45%;
+    text-align: start;
+    font-size: 1.1rem;
+}
+
+.secondtext h2 {
+    padding-bottom: 1rem;
+}
+.container1{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.container2{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards > img{
+    width: 50%;
+    padding: 0.5rem;
+    margin-top:1rem;
+    margin-left: 2.7rem;
+}
+@scope (.cards){
+
+   a{
+    text-decoration: none;
+    color : #000;
+   }
+
+} 
+
+.cards{
+    border: 1px solid black;
+    width: 12rem;
+    border-radius: 0%;
+    transition: ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.cards:hover{
+    transform: translateY(-5px) scale(1.005) translateZ(0);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fcard{
+    background-color: #FFC5C5;
+}
+.scard{
+    background-color:
+    #FFEBD8;
+}
+.tcard{
+    background-color:#C7DCA7;
+}
+.ftcard{
+    background-color:
+    #CBACB3;
+}
+.box{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+.box > p{
+    font-size: 1.3rem;
+}
+.card{
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+.card-body{
+    transition: transform 0.2s;
+  }
+.card > img{
+    border-radius: 25px;
+    height: 250px;
+  }
+  .button1{
+    text-decoration: none;
+    color: white;
+      background-color: rgb(16, 65, 169);
+      padding: 1rem 1rem;
+      border-radius: 50px;
+      font-size: 1rem;
+      font-weight: bold;
+      position: relative;
+      top: 50px;
+      left: 45%;
+      transform: translate(-50%);
+      width: auto;
+      text-align: center;
+      margin-bottom: 10rem;
+  }
+  
